@@ -21,7 +21,7 @@ An open-source project to monitor CO₂ and O₂ levels in an aquarium using a E
 
 - Real-time monitoring of CO₂ and O₂ levels.
 - Wi-Fi connectivity using ESP32 board.
-- MQTT support for data transmission. (further options might be added in the future)
+- MQTT support for data transmission.
 - Simple calibration procedure using the onboard flash button.
 
 ## System Overview
