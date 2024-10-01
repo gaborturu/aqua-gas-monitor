@@ -199,8 +199,8 @@ Where:
 
 ### Constants Used
 
-- **CO₂ Solubility Constant**: $$ k_{H_{CO2}} = 1449 $$ mg/L·atm
-- **O₂ Solubility Constant**: $$ k_{H_{O2}} = 40 $$ mg/L·atm
+- **CO₂ Solubility Constant**:$k_{H_{CO2}} = 1449$mg/L·atm
+- **O₂ Solubility Constant**:$k_{H_{O2}} = 40$mg/L·atm
 
 ### Calculating Partial Pressure
 
@@ -208,17 +208,15 @@ The partial pressure of the gas can be calculated from the measured concentratio
 
 For CO₂:
 
-$$ P_{CO2} = \frac{\text{CO2 ppm}}{1,000,000} \times P_{\text{atm}} $$
+$$ P_{CO2} = \frac{\text{CO2 ppm}}{1,000,000} \times P_{\text{atm}}$
 
 For O₂:
 
-$$ P_{O2} = \frac{\text{O2 \%}}{100} \times P_{\text{atm}} $$
+$$ P_{O2} = \frac{\text{O2 \%}}{100} \times P_{\text{atm}}$
 
 Where:
 
-- $$ 
-P_{\text{atm}} 
-$$ = atmospheric pressure (approx. 1 atm at sea level)
+-$P_{\text{atm}}$ = atmospheric pressure (approx. 1 atm at sea level)
 
 ### Conversion Steps
 
@@ -228,11 +226,11 @@ $$ = atmospheric pressure (approx. 1 atm at sea level)
 
 2. **Calculate Partial Pressure**:
 
-   $$ P_{CO2} = \frac{\text{CO2 ppm}}{1,000,000} \times 1 \text{ atm} $$
+  $P_{CO2} = \frac{\text{CO2 ppm}}{1,000,000} \times 1 \text{ atm}$
 
 3. **Calculate Dissolved CO₂ Concentration**:
 
-   $$ C_{CO2} = k_{H_{CO2}} \times P_{CO2} $$
+  $C_{CO2} = k_{H_{CO2}} \times P_{CO2}$
 
 #### For O₂:
 
@@ -240,11 +238,11 @@ $$ = atmospheric pressure (approx. 1 atm at sea level)
 
 2. **Calculate Partial Pressure**:
 
-   $$ P_{O2} = \frac{\text{O2 \%}}{100} \times 1 \text{ atm} $$
+  $P_{O2} = \frac{\text{O2 \%}}{100} \times 1 \text{ atm}$
 
 3. **Calculate Dissolved O₂ Concentration**:
 
-   $$ C_{O2} = k_{H_{O2}} \times P_{O2} $$
+  $C_{O2} = k_{H_{O2}} \times P_{O2}$
 
 ### Example Calculations
 
@@ -254,11 +252,11 @@ $$ = atmospheric pressure (approx. 1 atm at sea level)
 
 1. **Partial Pressure**:
 
-   $$ P_{CO2} = \frac{400}{1,000,000} \times 1 \text{ atm} = 0.0004 \text{ atm} $$
+  $P_{CO2} = \frac{400}{1,000,000} \times 1 \text{ atm} = 0.0004 \text{ atm}$
 
 2. **Dissolved CO₂ Concentration**:
 
-   $$ C_{CO2} = 1449 \text{ mg/L·atm} \times 0.0004 \text{ atm} = 0.5796 \text{ mg/L} $$
+  $C_{CO2} = 1449 \text{ mg/L·atm} \times 0.0004 \text{ atm} = 0.5796 \text{ mg/L}$
 
 #### Example for O₂:
 
@@ -266,11 +264,11 @@ $$ = atmospheric pressure (approx. 1 atm at sea level)
 
 1. **Partial Pressure**:
 
-   $$ P_{O2} = \frac{20.9}{100} \times 1 \text{ atm} = 0.209 \text{ atm} $$
+  $P_{O2} = \frac{20.9}{100} \times 1 \text{ atm} = 0.209 \text{ atm}$
 
 2. **Dissolved O₂ Concentration**:
 
-   $$ C_{O2} = 40 \text{ mg/L·atm} \times 0.209 \text{ atm} = 8.36 \text{ mg/L} $$
+  $C_{O2} = 40 \text{ mg/L·atm} \times 0.209 \text{ atm} = 8.36 \text{ mg/L}$
 
 ### Notes
 
