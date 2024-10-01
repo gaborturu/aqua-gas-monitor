@@ -189,7 +189,7 @@ The gas concentrations measured in the gas exchange chamber can be converted to 
 
 Henry's Law states that the amount of dissolved gas in a liquid is proportional to its partial pressure above the liquid. The law can be expressed as:
 
-$ C = k_H \times P $
+$C = k_H \times P$
 
 Where:
 
