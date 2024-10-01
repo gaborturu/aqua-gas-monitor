@@ -199,8 +199,8 @@ Where:
 
 ### Constants Used
 
-- **CO₂ Solubility Constant**: $k_{H_{CO2}} = 1449$mg/L·atm
-- **O₂ Solubility Constant**: $k_{H_{O2}} = 40$mg/L·atm
+- **CO₂ Solubility Constant**: $k_{H_{CO2}} = 1449$ mg/L·atm
+- **O₂ Solubility Constant**: $k_{H_{O2}} = 40$ mg/L·atm
 
 ### Calculating Partial Pressure
 
@@ -216,7 +216,7 @@ $P_{O2} = \frac{\text{O2 \%}}{100} \times P_{\text{atm}}$
 
 Where:
 
--$P_{\text{atm}}$ = atmospheric pressure (approx. 1 atm at sea level)
+$P_{\text{atm}}$ = atmospheric pressure (approx. 1 atm at sea level)
 
 ### Conversion Steps
 
