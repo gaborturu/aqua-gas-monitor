@@ -152,7 +152,11 @@ Install the following Arduino libraries via the Library Manager (`Sketch` > `Inc
   #endif
   ```
 
-### 5. Upload the Code to ESP32
+### 5. Configure some `CO2_O2_sensor.ino` parameters if necessary
+- Adjust O2 and CO2 calibration values in the CalibrateSensors() function (defaults are 400 ppm and 20.9%)
+- Ajdust altitude in the setup() function according to the geolocation of the sensor
+
+### 6. Upload the Code to ESP32
 
 - Open the `aqua_gas_monitor.ino` file in the Arduino IDE.
 - Ensure all required libraries are installed.
@@ -166,7 +170,7 @@ Install the following Arduino libraries via the Library Manager (`Sketch` > `Inc
 To ensure accurate readings, calibrate the sensors as follows:
 
 1. **Prepare the Environment**:
-   - Place the device in a well-ventilated area with known atmospheric conditions (e.g., outdoors).
+   - Place the device in a well-ventilated area with known atmospheric conditions (e.g., outdoors). Wait at least 20 minutes to make sure that the gas inside the sensors are equilibrated with the air. Adjust the O2 and CO2 levels in the CalibrateSensors() function if necessary.
 
 2. **Start Calibration**:
    - Press and hold the calibration button (the onboard flash button on `GPIO 0`) for at least 2 seconds.
