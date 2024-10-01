@@ -189,18 +189,18 @@ The gas concentrations measured in the gas exchange chamber can be converted to 
 
 Henry's Law states that the amount of dissolved gas in a liquid is proportional to its partial pressure above the liquid. The law can be expressed as:
 
-\[ C = k_H \times P \]
+$ C = k_H \times P $
 
 Where:
 
-- \( C \) = concentration of the dissolved gas in the liquid (mg/L)
-- \( k_H \) = Henry's Law constant for the gas (mg/L·atm)
-- \( P \) = partial pressure of the gas (atm)
+- $ C $ = concentration of the dissolved gas in the liquid (mg/L)
+- $ k_H $ = Henry's Law constant for the gas (mg/L·atm)
+- $ P $ = partial pressure of the gas (atm)
 
 ### Constants Used
 
-- **CO₂ Solubility Constant**: \( k_{H_{CO2}} = 1449 \) mg/L·atm
-- **O₂ Solubility Constant**: \( k_{H_{O2}} = 40 \) mg/L·atm
+- **CO₂ Solubility Constant**: $ k_{H_{CO2}} = 1449 $ mg/L·atm
+- **O₂ Solubility Constant**: $ k_{H_{O2}} = 40 $ mg/L·atm
 
 ### Calculating Partial Pressure
 
@@ -208,15 +208,15 @@ The partial pressure of the gas can be calculated from the measured concentratio
 
 For CO₂:
 
-\[ P_{CO2} = \frac{\text{CO2 ppm}}{1,000,000} \times P_{\text{atm}} \]
+$$ P_{CO2} = \frac{\text{CO2 ppm}}{1,000,000} \times P_{\text{atm}} $$
 
 For O₂:
 
-\[ P_{O2} = \frac{\text{O2 \%}}{100} \times P_{\text{atm}} \]
+$$ P_{O2} = \frac{\text{O2 \%}}{100} \times P_{\text{atm}} $$
 
 Where:
 
-- \( P_{\text{atm}} \) = atmospheric pressure (approx. 1 atm at sea level)
+- $ P_{\text{atm}} $ = atmospheric pressure (approx. 1 atm at sea level)
 
 ### Conversion Steps
 
@@ -226,11 +226,11 @@ Where:
 
 2. **Calculate Partial Pressure**:
 
-   \[ P_{CO2} = \frac{\text{CO2 ppm}}{1,000,000} \times 1 \text{ atm} \]
+   $$ P_{CO2} = \frac{\text{CO2 ppm}}{1,000,000} \times 1 \text{ atm} $$
 
 3. **Calculate Dissolved CO₂ Concentration**:
 
-   \[ C_{CO2} = k_{H_{CO2}} \times P_{CO2} \]
+   $$ C_{CO2} = k_{H_{CO2}} \times P_{CO2} $$
 
 #### For O₂:
 
@@ -238,11 +238,11 @@ Where:
 
 2. **Calculate Partial Pressure**:
 
-   \[ P_{O2} = \frac{\text{O2 \%}}{100} \times 1 \text{ atm} \]
+   $$ P_{O2} = \frac{\text{O2 \%}}{100} \times 1 \text{ atm} $$
 
 3. **Calculate Dissolved O₂ Concentration**:
 
-   \[ C_{O2} = k_{H_{O2}} \times P_{O2} \]
+   $$ C_{O2} = k_{H_{O2}} \times P_{O2} $$
 
 ### Example Calculations
 
@@ -252,11 +252,11 @@ Where:
 
 1. **Partial Pressure**:
 
-   \[ P_{CO2} = \frac{400}{1,000,000} \times 1 \text{ atm} = 0.0004 \text{ atm} \]
+   $$ P_{CO2} = \frac{400}{1,000,000} \times 1 \text{ atm} = 0.0004 \text{ atm} $$
 
 2. **Dissolved CO₂ Concentration**:
 
-   \[ C_{CO2} = 1449 \text{ mg/L·atm} \times 0.0004 \text{ atm} = 0.5796 \text{ mg/L} \]
+   $$ C_{CO2} = 1449 \text{ mg/L·atm} \times 0.0004 \text{ atm} = 0.5796 \text{ mg/L} $$
 
 #### Example for O₂:
 
@@ -264,11 +264,11 @@ Where:
 
 1. **Partial Pressure**:
 
-   \[ P_{O2} = \frac{20.9}{100} \times 1 \text{ atm} = 0.209 \text{ atm} \]
+   $$ P_{O2} = \frac{20.9}{100} \times 1 \text{ atm} = 0.209 \text{ atm} $$
 
 2. **Dissolved O₂ Concentration**:
 
-   \[ C_{O2} = 40 \text{ mg/L·atm} \times 0.209 \text{ atm} = 8.36 \text{ mg/L} \]
+   $$ C_{O2} = 40 \text{ mg/L·atm} \times 0.209 \text{ atm} = 8.36 \text{ mg/L} $$
 
 ### Notes
 
