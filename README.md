@@ -193,9 +193,9 @@ $ C = k_H \times P $
 
 Where:
 
-- $$ C $$ = concentration of the dissolved gas in the liquid (mg/L)
-- $$ k_H $$ = Henry's Law constant for the gas (mg/L·atm)
-- $$ P $$ = partial pressure of the gas (atm)
+- $C$ = concentration of the dissolved gas in the liquid (mg/L)
+- $k_H$ = Henry's Law constant for the gas (mg/L·atm)
+- $P$ = partial pressure of the gas (atm)
 
 ### Constants Used
 
@@ -216,7 +216,9 @@ $$ P_{O2} = \frac{\text{O2 \%}}{100} \times P_{\text{atm}} $$
 
 Where:
 
-- $$ P_{\text{atm}} $$ = atmospheric pressure (approx. 1 atm at sea level)
+- $$ 
+P_{\text{atm}} 
+$$ = atmospheric pressure (approx. 1 atm at sea level)
 
 ### Conversion Steps
 
