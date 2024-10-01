@@ -208,11 +208,11 @@ The partial pressure of the gas can be calculated from the measured concentratio
 
 For CO₂:
 
-$$ P_{CO2} = \frac{\text{CO2 ppm}}{1,000,000} \times P_{\text{atm}}$
+$P_{CO2} = \frac{\text{CO2 ppm}}{1,000,000} \times P_{\text{atm}}$
 
 For O₂:
 
-$$ P_{O2} = \frac{\text{O2 \%}}{100} \times P_{\text{atm}}$
+$P_{O2} = \frac{\text{O2 \%}}{100} \times P_{\text{atm}}$
 
 Where:
 
