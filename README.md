@@ -64,6 +64,7 @@ The Aqua Gas Monitor system consists of:
 - **Chamber Construction**:
   - Use an airtight box to serve as the gas exchange chamber. Position it above the aquarium lid.
   - Add a plastic pot scrubber into the chamber to increase the surface area for gas exchange between the water and the air inside the chamber.
+  - Insulate the chamber to prevent precipitation of water on the sensors. At least the part where the sensors are located should be insulated.
 
 - **Install the Sensors**:
 
